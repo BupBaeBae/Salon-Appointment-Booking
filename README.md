@@ -6,6 +6,10 @@ This is a Django-based web application that allows a nail salon to manage and sc
 
 Nail salons often rely on pen-and-paper scheduling or generic booking tools that are not tailored for their specific service durations, time slot structures, or staff availability. This project seeks to create a simple, web-based system where clients can book and cancel appointments, and the salon can manage available slots per artist and service type.
 
+## Original Notebook
+
+The project was originally developed as a Python notebook that implemented the appointment scheduling logic for a nail salon. This notebook served as the foundation for building the Django web application. The transition from notebook to web app involved converting the logic into Django models, forms, views, and templates to create a fully functional website.
+
 ## Features
 
 - View available appointment slots by artist and time
