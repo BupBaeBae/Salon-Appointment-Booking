@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Available Appointments</title></head>
+<body>
+    <h1>Available Slots</h1>
+    <ul>
+        {% for slot in slots %}
+            <li>{{ slot.artist.name }} - {{ slot.slot_label }} ({{ slot.service_type }})</li>
+        {% empty %}
+            <li>No available slots.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'book' %}">Book Appointment</a> |
+    <a href="{% url 'cancel' %}">Cancel Appointment</a>
+</body>
+</html>

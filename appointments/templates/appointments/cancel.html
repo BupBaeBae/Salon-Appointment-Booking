@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Cancel Appointment</title></head>
+<body>
+    <h1>Cancel Your Appointment</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Cancel</button>
+    </form>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>
