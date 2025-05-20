@@ -26,10 +26,6 @@ The project was originally developed as a Python notebook that implemented the a
 
 ## Setup Instructions
 
-0. Download and unzip the project archive:
-
-   Download the file named `NgocNguyen_INST126_SP_25.zip`, then extract it to a working folder using your file manager or by right-clicking and choosing "Extract All...".
-
 1. Clone the repository:
 
    ```bash
